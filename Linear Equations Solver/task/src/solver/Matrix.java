@@ -169,7 +169,8 @@ public class Matrix {
 		return !getValue(currentRow, numberOfArguments - 1).isZero();
 	}
 
-	 boolean isNoSolution() {
+	boolean isNoSolution() {  //slawek: czy macierz ma rozwiązanie? czy może chodzi o układ równań przedstawiony w
+		// postaci macierzy? Może powinna być klasa SystemOfEquations, który zawiera w sobie Matrix?
 
 		 for (int i = 0; i < numberOfRows; i++) {
 		 	 if(isNoSolutionRow(i)){

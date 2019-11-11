@@ -1,6 +1,7 @@
 package solver;
 
-class Swap {
+class Swap { // slawek: Co ta klasa reprezentuje? Dwa indeksy elementów do zamiany? Czy na pewno jest konieczna?
+	// Jeżeli tak, to może umieścić ją gdzieś wewnątrz innej (w jakimś kontekście)?
 	private int prevIndex;
 	private int nextIndex;
 

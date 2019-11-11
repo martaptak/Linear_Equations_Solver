@@ -1,6 +1,6 @@
 package solver;
 
-class Row {
+class Row {  //slawek: czy Row to nie jest zbyt ogólna klasa? Może Row powinno być nested class w Matrix?
 
 	private int rowNumber;
 
